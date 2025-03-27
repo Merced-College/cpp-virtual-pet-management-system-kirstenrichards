@@ -5,6 +5,7 @@
 #include "Fish.h"
 
 int main() {
+
     Pet pet1("Rex", "Dog", 3, 6);
     Pet pet2("Whiskers", "Cat", 2, 4);
 
@@ -26,6 +27,9 @@ int main() {
     std::cout << "\nDog 1 Info:\n";
     dog1.printInfo();
     dog1.makeSound(); 
+    std::cout << "\nDog 2 Info:\n";
+    dog2.printInfo();
+    dog2.makeSound(); 
     std::cout << "\n";
 
     // Polymorphism Dog
@@ -40,6 +44,9 @@ int main() {
     std::cout << "\nCat 1 Info:\n";
     cat1.printInfo();
     cat1.makeSound(); 
+    std::cout << "\nCat 2 Info:\n";
+    cat2.printInfo();
+    cat2.makeSound(); 
     std::cout << "\n";
 
     // Polymorphism Cat
@@ -55,6 +62,9 @@ int main() {
     std::cout << "Fish 1 Info:\n";
     fish1.printInfo();
     fish1.makeSound(); 
+    std::cout << "\nFish 2 Info:\n";
+    fish2.printInfo();
+    fish2.makeSound(); 
     std::cout << "\n";
 
     // Polymorphism Fish
