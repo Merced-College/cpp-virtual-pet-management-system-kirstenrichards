@@ -1,3 +1,5 @@
+// Kirsten Richards
+// CPSC-25 - Virtual Pet Management System
 #include <iostream>
 #include "Pet.h"
 #include "Dog.h"
